@@ -20,6 +20,7 @@ namespace DataModels {
         public User CreatedBy { get => _CreatedBy; set { _CreatedBy = value; NotifyPropertyChanged(); } }
         public User UpdatedBy { get => _UpdatedBy; set { _UpdatedBy = value; NotifyPropertyChanged(); } }
 
+
         #endregion // Properties
 
         #region INotifyPropertyChanged Members
